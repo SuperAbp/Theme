@@ -1,0 +1,41 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput
+@using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons
+@using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable
+@using SuperAbp.AspNetCore.Mvc.UI.Packages.Select2.Theme
+@using SuperAbp.AspNetCore.Mvc.UI.Packages.ZTree
+@using SuperAbp.Theme.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Card
+@using Volo.Abp.AspNetCore.Mvc.UI.Bundling.TagHelpers
+@inject IHtmlLocalizer<ThemeResource> L
+@model SuperAbp.Theme.Pages.IndexModel
+
+@section styles {
+    <abp-style-bundle name="@BootstrapFileInputBundles.Styles.Global"></abp-style-bundle>
+    <abp-style-bundle name="@BootstrapIconBundles.Styles.Global"></abp-style-bundle>
+    <abp-style-bundle name="@Select2ThemeBundles.Styles.Global"></abp-style-bundle>
+    <abp-style-bundle name="@ZTreeBundles.Styles.Global"></abp-style-bundle>
+    <abp-style-bundle name="@BootstrapTableBundles.Styles.Global"></abp-style-bundle>
+    
+    <abp-style src="/Pages/Index.cshtml.css" />
+}
+@section scripts {
+    <abp-script-bundle name="@BootstrapFileInputBundles.Scripts.Global"></abp-script-bundle>
+    <abp-script-bundle name="@ZTreeBundles.Scripts.Global"></abp-script-bundle>
+    <abp-script-bundle name="@BootstrapTableBundles.Scripts.Global"></abp-script-bundle>
+
+    <abp-script src="/Pages/Index.cshtml.js" />
+}
+<div class="container">
+    <abp-card>
+        <abp-card-header>
+            <abp-card-title>
+                @L["Welcome_Title"]
+            </abp-card-title>
+        </abp-card-header>
+        <abp-card-body>            
+            @L["Welcome_Text"]
+        </abp-card-body>
+    </abp-card>
+</div>

@@ -1,1 +1,1 @@
-# Theme
+启动`SuperAbp.Theme.Mvc`项目查看效果，会引入已配置的js/css文件

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput", "src\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput.csproj", "{E6640CBB-98B2-4DA0-8015-C3BB16B48AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons", "src\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons.csproj", "{BC60BC0B-CFC0-4C40-8F3E-6986EBFABDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable", "src\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable.csproj", "{15AEA98D-3754-4770-BE9B-BC28D147A510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAbp.AspNetCore.Mvc.UI.Packages.Select2.Theme", "src\SuperAbp.AspNetCore.Mvc.UI.Packages.Select2.Theme\SuperAbp.AspNetCore.Mvc.UI.Packages.Select2.Theme.csproj", "{56AAFDBC-72CF-4120-894A-3EC32226F0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAbp.AspNetCore.Mvc.UI.Packages.ZTree", "src\SuperAbp.AspNetCore.Mvc.UI.Packages.ZTree\SuperAbp.AspNetCore.Mvc.UI.Packages.ZTree.csproj", "{902AE308-DE88-4AFB-A9A6-96188A489E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAbp.Theme.Mvc", "src\SuperAbp.Theme.Mvc\SuperAbp.Theme.Mvc.csproj", "{E2C4E1C7-B698-4070-B0B0-4B00DCAF8C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6640CBB-98B2-4DA0-8015-C3BB16B48AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6640CBB-98B2-4DA0-8015-C3BB16B48AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6640CBB-98B2-4DA0-8015-C3BB16B48AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6640CBB-98B2-4DA0-8015-C3BB16B48AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC60BC0B-CFC0-4C40-8F3E-6986EBFABDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC60BC0B-CFC0-4C40-8F3E-6986EBFABDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC60BC0B-CFC0-4C40-8F3E-6986EBFABDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC60BC0B-CFC0-4C40-8F3E-6986EBFABDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AEA98D-3754-4770-BE9B-BC28D147A510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AEA98D-3754-4770-BE9B-BC28D147A510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AEA98D-3754-4770-BE9B-BC28D147A510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AEA98D-3754-4770-BE9B-BC28D147A510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AAFDBC-72CF-4120-894A-3EC32226F0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AAFDBC-72CF-4120-894A-3EC32226F0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AAFDBC-72CF-4120-894A-3EC32226F0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AAFDBC-72CF-4120-894A-3EC32226F0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902AE308-DE88-4AFB-A9A6-96188A489E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902AE308-DE88-4AFB-A9A6-96188A489E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902AE308-DE88-4AFB-A9A6-96188A489E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902AE308-DE88-4AFB-A9A6-96188A489E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C4E1C7-B698-4070-B0B0-4B00DCAF8C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C4E1C7-B698-4070-B0B0-4B00DCAF8C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C4E1C7-B698-4070-B0B0-4B00DCAF8C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C4E1C7-B698-4070-B0B0-4B00DCAF8C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB23508C-CB13-4030-BC67-BF31516D21EF}
+	EndGlobalSection
+EndGlobal
