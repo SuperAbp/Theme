@@ -6,6 +6,7 @@ using SuperAbp.AspNetCore.Mvc.UI.Packages.Select2.Theme;
 using SuperAbp.AspNetCore.Mvc.UI.Packages.ZTree;
 using SuperAbp.Theme.Localization;
 using SuperAbp.Theme.Menus;
+using SuperAbp.Theme.Mvc;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Authentication.JwtBearer;
 using Volo.Abp.AspNetCore.Mvc;
@@ -81,6 +82,13 @@ public class ThemeModule : AbpModule
             options.Theme = BootstrapTableTheme.BootstrapTable;
             options.Extensions = new BootstrapTableExtension[] { BootstrapTableExtension.Addrbar, BootstrapTableExtension.Cookie };
         });
+        Configure<SuperAbpZTreeOptions>(options =>
+        {
+            options.EnableCheck = true;
+            options.EnableEdit = true;
+            options.EnableHide = true;
+            options.Theme = ZTreeTheme.Metro;
+        });
     }
 
     private void ConfigureUrls(IConfiguration configuration)
@@ -95,13 +103,16 @@ public class ThemeModule : AbpModule
     {
         Configure<AbpBundlingOptions>(options =>
         {
-            options.StyleBundles.Configure(
-                BasicThemeBundles.Styles.Global,
+            options.StyleBundles.Configure(BasicThemeBundles.Styles.Global,
                 bundle =>
                 {
-                    bundle.AddFiles("/global-styles.css");
-                }
-            );
+                    bundle.AddContributors(typeof(TenderingGlobalStyleContributor));
+                });
+            options.ScriptBundles.Configure(BasicThemeBundles.Scripts.Global,
+                bundle =>
+                {
+                    bundle.AddContributors(typeof(TenderingGlobalScriptContributor));
+                });
         });
     }
 
