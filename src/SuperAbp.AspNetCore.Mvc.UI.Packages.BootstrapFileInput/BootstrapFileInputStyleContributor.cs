@@ -26,12 +26,16 @@ public class BootstrapFileInputStyleContributor : BundleContributor
                 context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer/theme.min.css");
                 break;
 
-            case BootstrapFileInputTheme.ExplorerFa:
-                context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer-fa/theme.min.css");
+            case BootstrapFileInputTheme.ExplorerFa4:
+                context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer-fa4/theme.min.css");
                 break;
 
-            case BootstrapFileInputTheme.ExplorerFas:
-                context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer-fas/theme.min.css");
+            case BootstrapFileInputTheme.ExplorerFa5:
+                context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer-fa5/theme.min.css");
+                break;
+
+            case BootstrapFileInputTheme.ExplorerFa6:
+                context.Files.AddIfNotContains("/libs/bootstrap-fileinput/themes/explorer-fa6/theme.min.css");
                 break;
         }
     }

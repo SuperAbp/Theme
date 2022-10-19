@@ -18,6 +18,12 @@ public class BootstrapFileInputScriptContributor : BundleContributor
             .GetRequiredService<IOptions<SuperAbpBootstrapFileInputOptions>>()
             .Value;
 
+        if (options.EnableAdvancedPreview)
+        {
+            context.Files.AddIfNotContains("/libs/bootstrap-fileinput/js/plugins/buffer.min.js");
+            context.Files.AddIfNotContains("/libs/bootstrap-fileinput/js/plugins/filetype.min.js");
+        }
+
         if (options.EnablePiexif)
         {
             context.Files.AddIfNotContains("/libs/bootstrap-fileinput/js/plugins/piexif.min.js");

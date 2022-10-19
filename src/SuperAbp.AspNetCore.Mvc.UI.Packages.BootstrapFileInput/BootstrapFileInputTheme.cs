@@ -10,17 +10,23 @@ public enum BootstrapFileInputTheme
     [Description("explorer")]
     Explorer,
 
-    [Description("explorer-fa")]
-    ExplorerFa,
+    [Description("explorer-fa4")]
+    ExplorerFa4,
 
-    [Description("explorer-fas")]
-    ExplorerFas,
+    [Description("explorer-fa5")]
+    ExplorerFa5,
 
-    [Description("fa")]
+    [Description("explorer-fa6")]
+    ExplorerFa6,
+
+    [Description("fa4")]
     FontAwesome,
 
-    [Description("fas")]
+    [Description("fa5")]
     FontAwesome5,
+
+    [Description("fa6")]
+    FontAwesome6,
 
     [Description("gly")]
     Glyphicons
