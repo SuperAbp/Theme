@@ -104,6 +104,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SuperAbp.AspNetCore.Mvc.UI.Packages.Bootbox\SuperAbp.AspNetCore.Mvc.UI.Packages.Bootbox.csproj" />
     <ProjectReference Include="..\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput.csproj" />
     <ProjectReference Include="..\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons.csproj" />
     <ProjectReference Include="..\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable\SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable.csproj" />

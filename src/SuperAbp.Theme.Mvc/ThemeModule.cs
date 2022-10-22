@@ -1,4 +1,5 @@
 ﻿using Microsoft.OpenApi.Models;
+using SuperAbp.AspNetCore.Mvc.UI.Packages.Bootbox;
 using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapFileInput;
 using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapIcons;
 using SuperAbp.AspNetCore.Mvc.UI.Packages.BootstrapTable;
@@ -48,7 +49,8 @@ namespace SuperAbp.Theme;
     typeof(SuperAbpAspNetCoreMvcUiBootstrapIconModule),
     typeof(SuperAbpAspNetCoreMvcUiBootstrapTableModule),
     typeof(SuperAbpAspNetCoreMvcUiZTreeModule),
-    typeof(SuperAbpAspNetCoreMvcUiSelect2ThemeModule)
+    typeof(SuperAbpAspNetCoreMvcUiSelect2ThemeModule),
+    typeof(SuperAbpAspNetCoreMvcUiBootboxModule)
 )]
 public class ThemeModule : AbpModule
 {
