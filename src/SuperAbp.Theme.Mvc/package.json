@@ -3,7 +3,7 @@
   "name": "my-app",
   "private": true,
   "dependencies": {
-    "@abp/aspnetcore.mvc.ui.theme.basic": "~5.2.0",
+    "@abp/aspnetcore.mvc.ui.theme.basic": "~7.0.2",
     "@super-abp/bootbox": "^1.0.0",
     "@super-abp/bootstrap-fileinput": "^1.0.2",
     "@super-abp/bootstrap-icons": "^1.0.1",
