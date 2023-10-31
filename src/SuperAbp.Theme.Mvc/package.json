@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "@abp/aspnetcore.mvc.ui.theme.basic": "~7.4.0",
-    "@super-abp/bootbox": "^0.3.0",
-    "@super-abp/bootstrap-fileinput": "^0.3.0",
-    "@super-abp/bootstrap-icons": "^0.3.0",
-    "@super-abp/bootstrap-table": "^0.3.0",
-    "@super-abp/select2-theme": "^0.3.0",
-    "@super-abp/ztree": "^0.3.0"
+    "@super-abp/bootbox": "^0.4.0",
+    "@super-abp/bootstrap-fileinput": "^0.4.0",
+    "@super-abp/bootstrap-icons": "^0.4.0",
+    "@super-abp/bootstrap-table": "^0.4.0",
+    "@super-abp/select2-theme": "^0.4.0",
+    "@super-abp/ztree": "^0.4.0"
   }
 }
